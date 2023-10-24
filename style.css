@@ -1,0 +1,57 @@
+.wrapper-grocery {
+	background-color: #fff;
+	height: auto;
+	width: 500px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%);
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.overlay-grocery {
+	padding: 20px;
+}
+.header-grocery {
+	text-align: center;
+	padding: 10px;
+}
+.form {
+	display: flex;
+	justify-content: space-between;
+}
+.input {
+	width: 100%;
+	border: none;
+	background-color: rgb(217, 213, 255);
+}
+.items {
+	padding: 20px;
+}
+.item {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.buttons {
+	display: flex;
+	height: 45px;
+}
+.btn {
+	margin: 3px;
+}
+.item-title {
+	display: flex;
+	font-size: 20px;
+	align-items: center;
+}
+.save {
+	display: none;
+}
+.active {
+	display: block;
+}
+.hidden {
+	display: none;
+}
